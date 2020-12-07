@@ -1,0 +1,38 @@
+{
+  "name": "@michaelkohler/eslint-config",
+  "version": "1.0.0",
+  "description": "Basic configuration for JS and JSON linting Michael likes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelkohler/eslint-config.git"
+  },
+  "keywords": [
+    "eslintconfig",
+    "eslint"
+  ],
+  "author": "Michael Kohler <me@michaelkohler.info>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michaelkohler/eslint-config/issues"
+  },
+  "homepage": "https://github.com/michaelkohler/eslint-config#readme",
+  "dependencies": {
+    "eslint-plugin-array-func": "^3.1.7",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-filenames": "^1.3.2",
+    "eslint-plugin-jsdoc": "^30.7.8",
+    "eslint-plugin-json-light": "^1.0.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-security": "^1.4.0",
+    "eslint-plugin-sort-class-members": "^1.8.0",
+    "eslint-plugin-unicorn": "^23.0.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=5.3.0"
+  }
+}
