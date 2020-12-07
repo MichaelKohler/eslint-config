@@ -167,7 +167,7 @@ module.exports = {
     "no-misleading-character-class": 2,
     "filenames/match-regex": [2, "^[a-z0-9-.]+$"],
     "promise/always-return": 1,
-    "security/detect-non-literal-fs-filename": 0,
+    "security/detect-non-literal-fs-filename": 2,
     "sort-class-members/sort-class-members": [2, {
       order: [
         "[static-properties]",
@@ -231,7 +231,6 @@ module.exports = {
     "no-buffer-constructor": 2,
     "no-use-before-define": 0,
     "handle-callback-err": 1,
-    "security/detect-non-literal-fs-filename": 1,
     "node/no-unpublished-import": 0,
   },
   settings: {
